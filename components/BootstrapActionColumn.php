@@ -8,6 +8,13 @@ use yii\helpers\Html;
 
 class BootstrapActionColumn extends ActionColumn
 {
+    const BTN_GROUP_TYPE_HORIZONTAL = 'btn-group';
+    const BTN_GROUP_TYPE_VERTICAL = 'btn-group-vertical';
+    /**
+     * @var string
+     */
+    public $btnGroupType = self::BTN_GROUP_TYPE_HORIZONTAL;
+
     /**
      * @inheritdoc
      */
@@ -66,6 +73,6 @@ class BootstrapActionColumn extends ActionColumn
             }
         }, $this->template);
 
-        return Html::tag('div', $result, ['class' => 'btn-group btn-group-sm']);
+        return Html::tag('div', $result, ['class' => $this->btnGroupType.' btn-group-sm']);
     }
 }
