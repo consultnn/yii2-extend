@@ -1,0 +1,25 @@
+{
+    "name": "consultnn/yii2-extends",
+    "description": "Extends standart yii2 classes",
+    "keywords": ["yii2", "framework"],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/consultnn/yii2-extends/issues?state=open",
+        "source": "https://github.com/consultnn/yii2-extends"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": ">=2.0.4",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
