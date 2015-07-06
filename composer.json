@@ -1,5 +1,5 @@
 {
-    "name": "consultnn/yii2-extends",
+    "name": "consultnn/yii2-extend",
     "description": "Extends standart yii2 classes",
     "keywords": ["yii2", "framework"],
     "type": "library",
@@ -20,6 +20,11 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "consultnn\\yii2\\extend\\": "."
         }
     }
 }
