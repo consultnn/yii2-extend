@@ -1,6 +1,6 @@
 <?php
 
-namespace consultnn\yii2\extend\components;
+namespace consultnn\yii2\grid\components;
 
 use Yii;
 use yii\grid\ActionColumn;

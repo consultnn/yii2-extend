@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "consultnn\\yii2\\extend\\": "."
+            "consultnn\\yii2\\grid\\": "."
         }
     }
 }
