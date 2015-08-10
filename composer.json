@@ -1,17 +1,13 @@
 {
-    "name": "consultnn/yii2-extend",
+    "name": "consultnn/yii2-grid",
     "description": "Extends standart yii2 classes",
     "keywords": ["yii2", "framework"],
     "type": "library",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/consultnn/yii2-extends/issues?state=open",
-        "source": "https://github.com/consultnn/yii2-extends"
-    },
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": ">=2.0.4",
-        "yiisoft/yii2-bootstrap": "*"
+        "yiisoft/yii2": "2.0.*",
+        "yiisoft/yii2-bootstrap": "2.0.*"
     },
     "config": {
         "process-timeout": 1800
