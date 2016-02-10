@@ -6,9 +6,21 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "2.0.*",
-        "yiisoft/yii2-bootstrap": "2.0.*"
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-bootstrap": "^2.0"
     },
+    "authors": [
+        {
+            "name": "ICC Ltd.",
+            "email": "tech@consultnn.ru",
+            "homepage": "http://consultnn.ru"
+        },
+        {
+            "name": "Maxim Mironyuk",
+            "email": "serieznyi@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "config": {
         "process-timeout": 1800
     },
@@ -16,6 +28,9 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     },
     "autoload": {
