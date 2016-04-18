@@ -1,2 +1,2 @@
-# yii2-extend
-Extends standart yii2 classes
+# yii2-grid
+Extends standart yii2 grid view components
