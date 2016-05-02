@@ -1,13 +1,13 @@
 {
     "name": "consultnn/yii2-grid",
-    "description": "Extends standart yii2 classes",
-    "keywords": ["yii2", "framework"],
+    "description": "Extends basic yii2 grid classes",
+    "keywords": ["yii2", "framework", "grid"],
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "^2.0",
-        "yiisoft/yii2-bootstrap": "^2.0"
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.6"
     },
     "authors": [
         {
@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "consultnn\\yii2\\grid\\": "."
+            "consultnn\\yii2\\grid\\": "./src"
         }
     }
 }
